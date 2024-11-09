@@ -5,10 +5,10 @@ from PetStore.APIObjects.endpoints.user import UserEndpoints
 
 
 class PetStoreAPI(BaseApiObject):
-    """ LogX Fulfillment Service API Resources """
+    """ Pet Store API Resources """
 
     def __init__(self):
-        """ LogX Fulfillment Service API """
+        """ Pet Store Service API """
         super().__init__()
 
         self.pet = PetEndpoints(self)
